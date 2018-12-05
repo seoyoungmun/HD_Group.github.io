@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*Noto Sans*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/*나눔스퀘어*/
+@font-face {
+    font-family: nns;
+    font-weight:400;
+    src:local('NanumSquareR'),
+       url(../font/NanumSquareR.ttf) format('truetype'),
+       url(../font/NanumSquareR.eot) format('embedded-opentype'),
+       url(../font/NanumSquareR.woff) format('woff');
+}
+@font-face {
+    font-family: nns;
+    font-weight:700;
+    src:local('NanumSquareB'),
+       url(../font/NanumSquareB.ttf) format('truetype'),
+       url(../font/NanumSquareB.eot) format('embedded-opentype'),
+       url(../font/NanumSquareB.woff) format('woff');
+}
+@font-face {
+    font-family: nns;
+    font-weight:800;
+    src:local('NanumSquareEB'),
+       url(../font/NanumSquareEB.ttf) format('truetype'),
+       url(../font/NanumSquareEB.eot) format('embedded-opentype'),
+       url(../font/NanumSquareEB.woff) format('woff');
+}
+@font-face {
+    font-family: nns;
+    font-weight:300;
+    src:local('NanumSquareL'),
+       url(../font/NanumSquareL.ttf) format('truetype'),
+       url(../font/NanumSquareL.eot) format('embedded-opentype'),
+       url(../font/NanumSquareL.woff) format('woff');
+}
+
+body{font-family: 'Noto Sans', nns, sans-serif; position: relative; color: #333; font-size: 12px;}
+.in{width: 1340px; margin-left: auto; margin-right: auto;}
+
+/*header*/
+.header{height: 62px; background:#fff; padding: 16px 0; box-sizing: border-box; font-weight: 900; font-size: 1.417em; position: fixed; z-index: 1000; width: 100%;}
+.header .logo{float: left;}
+.header nav{line-height: 30px;}
+.header nav ul li{float: right; margin: 0 55px; position:relative;}
+.header nav ul li a:hover{color:#014da2; text-shadow:0 1px 2px rgba(1, 42, 89, 0.2);}
+/*.header nav ul li::after{content:''; display:block; background:url(../images/small_logo.png) no-repeat center center; position:absolute; bottom:-8px; left:0; width:13px; height:10px;}*/
+
+/*main*/
+.main{1height:100%; padding-top: 62px; padding-bottom: 165px;}
+
+/*footer*/
+footer{width: 100%; height: 165px; background: #fff; position: absolute; left: 0; bottom: 0; color: #9b9b9b;}
+footer .family_site .text span{display: block; font-weight: 900; font-size: 1.44em;}
+footer .family_site{height: 70px; border-bottom: 1px solid #bebec0;}
+footer .family_site .box{position: relative; height: 100%;}
+footer .family_site .box .text{position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+footer .family_site .box ul{width: 1140px; height: 100%; position: relative;}
+footer .family_site ul li{position: absolute; height: 30px; line-height: 30px;}
+footer .family_site ul li img{float:left;}
+/*footer .family_site ul li a:hover h4{display: block;}*/
+footer .family_site ul li a img.on{transform: translateY(-30px);}
+footer .family_site ul li h4{float: right; display: none; color: #789ab1;}
+footer .family_site ul .f01{left: 0;}
+footer .family_site ul .f02{left: 10%;}
+footer .family_site ul .f03{left: 20%;}
+footer .family_site ul .f04{left: 30%;}
+footer .family_site ul .f05{left: 40%;}
+footer .family_site ul .f06{left: 50%;}
+footer .family_site ul .f07{left: 60%;}
+footer .family_site ul .f08{left: 70%;}
+
+footer .family_site .box .mask{height: 30px; overflow: hidden; position: absolute; left: 200px; top: 20px;}
+
+footer .info{padding: 30px 0; background: #f9f9f9;}
+footer .info .in{position: relative;}
+footer .info address{font-style: normal; display: inline-block; width: 275px; margin-bottom: 10px;}
+footer .info .link_area li{float: left;}
+footer .info .link_area{display: inline-block; vertical-align: -3px;}
+footer .info .link_area .bar::after{content: '|'; padding: 0 20px;}
+footer .info .link_area .bar::after{content: '|'; padding: 0 20px;}
+footer .info .sns{position: absolute; top: 50%; right: 0; transform: translateY(-50%);}
+footer .info .sns li{float: right; font-size: 28px; margin: 0 5px;}

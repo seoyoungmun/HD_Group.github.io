@@ -1,0 +1,125 @@
+@charset "utf-8";
+h3{/*36px*//*font-size: 3em; font-weight: 900;*/}
+h4{/*30px*//*font-size: 2.5em; font-weight: 900;*/}
+h5{/*24px*//*font-size: 2.05em; font-weight: bold;*/}
+h6{/*18px*//*font-size: 1.6em; font-weight: bold;*/}
+p{/*16px*//*font-size: 1.38em; line-height: 1.5;*/}
+
+.main-header{background: url(../images/header_bg.jpg) no-repeat center -500px; height: 340px; background-size: cover; color:#fff; text-align: center; line-height: 340px; letter-spacing: 3px; font-size:3em; font-weight:900;}
+.main-nav{font-size: 1.38em;}
+.main-nav ul{display: flex;}
+.main-nav ul li{flex-grow: 1; text-align: center; border: 1px solid #dfdfdf;}
+.main-nav ul li a{padding: 15px 0; display: block;}
+
+/*공통 title*/
+.main-contents .title{padding-top: 110px; text-align: center;}
+.main-contents .title h4{font-size: 2.5em; font-weight: 900;}
+.main-contents .title h6{font-size: 1.6em; font-weight: bold; line-height: 1.5; padding-top: 45px; padding-bottom: 80px;}
+.main-contents .title h6 span{display: block;}
+
+/*현대그룹 비전*/
+.vision{margin-bottom: 125px;}
+.vision .vision_img{background: url(../images/vision_img.png) no-repeat center center; height: 363px; position: relative; text-align: center;}
+.vision .vision_img h6{font-size: 1.6em; font-weight: bold; margin-bottom: 0.8em; font-weight: 900;}
+.vision .vision_img p{font-size: 1.38em; line-height: 1.5; font-weight: bold;}
+.vision .vision_img .tri{position: absolute; transform: translate(-50%,-50%); top:78%;}
+.vision .vision_img .blue{left: 26%;}
+.vision .vision_img .blue h6{color: #014da2;}
+.vision .vision_img .yellow{left: 50%;}
+.vision .vision_img .yellow h6{color: #feb911;}
+.vision .vision_img .green{left: 74%;}
+.vision .vision_img .green h6{color: #00a650;}
+
+/*현대그룹 역사*/
+.history{background:url(../images/history_01.jpg) no-repeat center center; background-size: cover; height: 90vh; position: relative; color:#f2f2f2; }
+.history .hist_bar {height: 65px; background-color: rgba(77,77,77,.75); font-size: 1.75em; line-height: 65px; position: absolute; left: 0; width: 100%;}
+.history .hist_bar .in{display: flex;}
+.history .hist_bar .in li{flex-grow: 1; text-align:center;}
+.history .hyundai_history{top:0;}
+.history .korea_history{bottom:0;}
+.history .history_content{position: absolute; top: 50%; left: 50%; text-align: center; transform: translate(-50%,-50%); width: 100%;}
+.history .history_content h3{font-size: 3em; font-weight: 900;}
+.history .history_content h5{line-height: 1.65; margin-top: 3.5em; font-weight: 500; font-size: 2.05em; font-weight: bold;}
+.history .history_content h5 span{display: block;}
+
+/*ceo*/
+.ceo .title{margin-bottom: 70px;}
+.ceo .ceo_content{height: 490px; position: relative;}
+.ceo .text{transform: translateY(-50%); position: absolute; left: 770px; top: 50%;}
+.ceo .text h4{font-size: 2.35em; font-weight:900;}
+.ceo .text h5{margin: 40px 0; font-size: 1.95em; font-weight: bold;}
+.ceo .text h6{line-height: 1.65; font-weight: 400; font-size: 1.6em; font-weight: normal;}
+
+/*현대그룹계열사*/
+.families{background: radial-gradient(#FEF8E9,#FEF8E9,#E7F6EF,#E7F0F7,#E7F0F7); padding-bottom:70px;}
+.families .title{padding-top:70px;margin-top:100px;}
+.families .families_content{background: url(../images/HG_map_bg.png) no-repeat center 8.5vw; background-size:100vw; height: 55.5vw; position:relative;}
+/*.families .families_content ul{margin-left: 2.14285714vw; margin-right: 6.78571429vw; display: flex;}*/
+.families .families_content li{position:absolute; height:100%;}
+.families .families_content li .li_in{position: relative; height: 100%; width:22.7678571vw;}
+.families .families_content li .li_in .text{font-size: 1vw; line-height: 1.5; position:absolute;}
+.families .families_content li .li_in img{position:absolute; width:11.340206vw;}
+.families .families_content .up img{right: -3.24742268vw; bottom:0;}
+.families .families_content .down img{left: 0; top:0;}
+
+.families .families_content li .text{width:17.4vw;}
+.families .families_content li .text span{font-size: 1.17em; display: block; font-weight: bold; margin-bottom:5px;}
+.families .families_content .up .text{border-radius: 0 30px 0 0; border-bottom: none; border-left: none; padding:1.6vw 1.6vw 2.6vw 1vw; top:0;  right:0; text-align:right;}
+.families .families_content .down .text{border: 2px solid #000; border-radius: 0 0 0 30px; padding:2.6vw 1vw 1.6vw 1.6vw; bottom:0; left:4.05vw;}
+
+.families .families_content .eli{left:2.14285714vw;}
+.families .families_content .eli img{top:25.5vw;}
+.families .families_content .eli .text{border: 0.167vw solid #00a650; border-right: none; border-top: none; bottom:2vw;}
+.families .families_content .eli .text span{color:#00a650;}
+.families .families_content .movex{left:26.9107142vw;}
+.families .families_content .movex img{top:20vw;}
+.families .families_content .movex .text{padding-top:7vw; border: 0.167vw solid #feb911; border-right: none; border-top: none; bottom:2.5vw;}
+.families .families_content .movex .text span{color:#feb911;}
+.families .families_content .hd_invest{left:51.6785713vw;}
+.families .families_content .hd_invest img{top:24vw;}
+.families .families_content .hd_invest .text{border: 0.167vw solid #00a650; border-right: none; border-top: none; padding-top:5vw;}
+.families .families_content .hd_invest .text span{color:#00a650;}
+.families .families_content .hotel{left:76.4464284vw;}
+.families .families_content .hotel img{top:10vw;}
+.families .families_content .hotel .text span{color:#feb911;}
+.families .families_content .hotel .text{border: 0.167vw solid #feb911; border-right: none; border-top: none; bottom:13vw; width:15.5vw;}
+
+.families .families_content .asan{left:-0.10456554vw;}
+.families .families_content .asan img{top:19vw;}
+.families .families_content .asan .text span{color:#005aad;}
+.families .families_content .asan .text{border: 0.167vw solid #005aad; border-left: none; border-bottom: none; top:5.5vw;}
+.families .families_content .hri{left:24.6632916vw;}
+.families .families_content .hri img{top:15.5vw;}
+.families .families_content .hri .text{border: 0.167vw solid #7fc241; border-left: none; border-bottom: none; top:4vw;}
+.families .families_content .hri .text span{color:#7fc241;}
+.families .families_content .global{left:48.4311486vw;}
+.families .families_content .global img{top:12.5vw;}
+.families .families_content .global .text span{color:#005aad;}
+.families .families_content .global .text{border: 0.167vw solid #005aad; border-left: none; border-bottom: none; top:-2.5vw;}
+.families .families_content .bloomvista{left:74.1990057vw;}
+.families .families_content .bloomvista img{top:9.5vw;}
+.families .families_content .bloomvista .text{border: 0.167vw solid #7fc241; border-left: none; border-bottom: none; top:-2.5vw;}
+.families .families_content .bloomvista .text span{color:#7fc241;}
+.families .families_content .bloomvista .text span i{font-style: normal; font-size: 1vw;}
+
+/*
+.families .families_content ul .eli img{1top:17vw;}
+.families .families_content ul .eli .text{top:30vw; height:10.5vw;}
+.families .families_content ul .asan img{1top:10vw;}
+.families .families_content ul .asan .text{top:-10.5vw; height:13vw;}
+.families .families_content ul .movex img{1top:11.5vw;}
+.families .families_content ul .movex .text{top:24.5vw; height:12vw; padding-top:90px;}
+.families .families_content ul .hri img{1top:17vw;}
+.families .families_content ul .hd_invest img{1top:5vw;}
+.families .families_content ul .global img{1top:8vw;}
+.families .families_content ul .hotel img{1top:-1.5vw;}
+.families .families_content ul .bloomvista img{1top:3.5vw;}
+ */
+
+/*경영이념*/
+.ideology{text-align: center;}
+.ideology .ideology_content{width: 1340px; height: 700px; position: relative;}
+.ideology .text{position: absolute; top: 65px; right: 65px;}
+.ideology p{color: #00a650; text-align: right; font-weight: 900; font-size: 2.3em; line-height: 1.25;}
+.ideology p span{color: #feb911; display: block; font-size: 1.333em;}
+.ideology p i{color:#014da2; font-style: normal; display: block;}
